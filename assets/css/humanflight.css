@@ -1,0 +1,225 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+}
+
+.container-01 {
+  height: 100vh;
+  background-image: url("../img/humanFlight/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -150px;
+}
+.container-01 .nav-item a {
+  color: rgb(29, 27, 27);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.container-01 .img-arrow-down {
+  width: 150px;
+  height: auto;
+}
+.container-01 .nav-link.active {
+  color: transparent;
+}
+
+.container-02 .container-title {
+  line-height: 1rem;
+}
+.container-02 .container-title p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.container-02 .container-title h5 {
+  margin-top: 6rem;
+  font-size: 7.3rem;
+}
+
+.container-03 {
+  height: 15vh;
+  background-color: black;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.container-03 p a {
+  text-decoration: none;
+  color: #6c6666;
+}
+
+.container-04 {
+  height: 110vh;
+  background-image: url("../img/humanFlight/02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-04 .title-container-03 p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.container-04 .content-container-04 {
+  width: 37rem;
+  position: absolute;
+  right: 8%;
+  bottom: 34%;
+}
+.container-04 .content-container-04 h6 {
+  font-weight: 300;
+}
+.container-04 .content-container-04 p {
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.container-04 .content-container-04 h1 {
+  font-size: 4rem;
+}
+.container-04 .content-container-04 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.container-05 {
+  height: 100vh;
+  background-image: url("../img/humanFlight/03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-05 .title-container-05 p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.container-05 .content-container-05 {
+  width: 40rem;
+  position: absolute;
+  left: 3%;
+  bottom: 34%;
+}
+.container-05 .content-container-05 h6 {
+  font-weight: 300;
+}
+.container-05 .content-container-05 p {
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.container-05 .content-container-05 h1 {
+  font-size: 4rem;
+}
+.container-05 .content-container-05 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.container-06 {
+  height: 100vh;
+  background-image: url("../img/humanFlight/04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-06 .title-container-06 p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.container-06 .content-container-06 {
+  width: 37rem;
+  position: absolute;
+  right: 8%;
+  bottom: 34%;
+}
+.container-06 .content-container-06 h6 {
+  font-weight: 300;
+}
+.container-06 .content-container-06 p {
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.container-06 .content-container-06 h1 {
+  font-size: 4rem;
+}
+.container-06 .content-container-06 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.container-07 {
+  height: 100vh;
+  background-image: url("../img/humanFlight/05.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-07 .content-container-07 {
+  width: 37rem;
+  position: absolute;
+  left: 5%;
+  bottom: 38%;
+}
+.container-07 .content-container-07 h6 {
+  font-weight: 300;
+}
+.container-07 .content-container-07 p {
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.container-07 .content-container-07 h1 {
+  font-size: 4rem;
+}
+.container-07 .content-container-07 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.container-08 {
+  background-color: black;
+  height: 70vh;
+}
+.container-08 .title-container-08 p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+.container-08 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: black;
+  height: 30vh;
+  padding: 1.5rem 0;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .footer-text {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.footer .span-footer {
+  color: rgb(143, 129, 129);
+}
+
+/*# sourceMappingURL=humanflight.css.map */

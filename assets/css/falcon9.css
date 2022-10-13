@@ -1,0 +1,178 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+hr {
+  color: white;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+}
+
+.container-01 {
+  height: 100vh;
+  background-image: url("../img/falcon9/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-01 .nav-item a {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.container-01 .section-1 {
+  color: #fff;
+  margin-top: 200px;
+}
+.container-01 .title-section-01 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.container-02 {
+  height: 30vh;
+  background-color: black;
+}
+.container-02 .section-2 {
+  background-color: black;
+}
+.container-02 .title-section-02 {
+  font-size: 6rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-03 {
+  height: 100vh;
+  background-image: url("../img/falcon9/02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-03 .text-info-container-03 {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+  padding-top: 150px;
+}
+
+.container-04 {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+.container-04 .container-carrousel {
+  position: absolute;
+  width: 470px;
+  height: auto;
+  left: 12%;
+  top: 35%;
+}
+.container-04 .container-carrousel .content {
+  line-height: 1.5rem;
+  padding: 0 10px;
+}
+.container-04 .container-carrousel .content .title-content {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.container-04 .container-carrousel .content .subtitle-content {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.container-04 .container-carrousel .content ul li {
+  font-weight: 300;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container-05 {
+  height: 100vh;
+  background-image: url("../img/falcon9/08.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container-05 .container-carrousel {
+  position: absolute;
+  width: 470px;
+  height: auto;
+  left: 14%;
+  top: 31%;
+  padding: 10px;
+  line-height: 1.5rem;
+}
+.container-05 .container-carrousel .content ul li {
+  font-weight: 300;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.container-05 .title-content {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.container-05 .subtitle-content {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.container-06 {
+  padding: 0;
+}
+.container-06 p {
+  background-color: black;
+}
+.container-06 .carousel-dark .carousel-control-next-icon,
+.container-06 .carousel-dark .carousel-control-prev-icon {
+  filter: invert(0);
+}
+.container-06 .carousel img {
+  height: 95vh;
+}
+
+.container-07 {
+  background-color: black;
+  height: 70vh;
+}
+.container-07 .title-container-07 p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+.container-07 .buttons-section-07 .btn-main {
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 15px 30px;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: black;
+  height: 30vh;
+  padding: 1.5rem 0;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .footer-text {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.footer .span-footer {
+  color: rgb(143, 129, 129);
+}
+
+/*# sourceMappingURL=falcon9.css.map */
