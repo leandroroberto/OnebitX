@@ -2,12 +2,13 @@
     color: white;
     margin: 0;
     padding: 0;
-    font-family: 'Rubik' , sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-body{
+body {
     background-color: black;
 }
+
 
 .btn-main {
     border: 2px solid #fff;
@@ -35,6 +36,7 @@ body{
             font-size: .8rem;
         }
     }
+
     .section-1 {
         position: relative;
         color: #fff;
@@ -56,35 +58,102 @@ body{
     background-size: cover;
 }
 
-.container-03{
+.container-03 {
     height: 100vh;
     background-image: url('../img/home/02.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.container-04{
+.container-04 {
     height: 100vh;
     background-image: url('../img/home/04.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.footer{
+.footer {
     background-color: black;
     height: 100px;
     padding: 2rem 0;
-    a{
+
+    a {
         text-decoration: none;
         color: #fff;
     }
 
-    .footer-text{
+    .footer-text {
         font-size: .8rem;
         font-weight: bolder;
     }
 
-    .span-footer{
+    .span-footer {
         color: rgb(143, 129, 129);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .header {
+        button.navbar-toggler{
+            width: 40px;
+            padding: 1px;
+
+           .navbar-toggler-icon{
+            width: 20px;
+            
+           }
+        }
+    }
+
+    .navbar-toggler {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .navbar-nav {
+        .nav-link.active {
+            color: transparent;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                width: 30%;
+                border-bottom: 1px solid white;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 415px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .container-01 {
+        background-position-x: -80px;
+    }
+
+    .container-02 {
+        background-position-x: -80px;
+    }
+
+    .container-04 {
+        background-position-x: -200px;
+    }
+
+    .img-arrow-down {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 336px){
+    .logo {
+        width: 200px;
+        height: auto;
     }
 }

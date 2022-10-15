@@ -216,3 +216,17 @@ hr {
         color: rgb(143, 129, 129);
     }
 }
+
+@media screen and (min-width: 320px){
+    .container-01 .title-section-01{
+        font-size: 3rem;
+    }
+    .buttons-section-07{
+        flex-direction: column;
+    }
+
+    .container-05{
+        display: flex;
+        flex-direction: column;
+    }
+}

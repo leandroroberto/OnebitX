@@ -11,7 +11,7 @@
 }
 
 .container-01 {
-    height: 100vh;
+    height: 100%;
     background-image: url('../img/humanFlight/01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,5 +273,13 @@
 
     .span-footer {
         color: rgb(143, 129, 129);
+    }
+}
+
+@media screen and (max-width: 1196px){
+    .container-02{
+        .arrowDown{
+            display: none;
+        }
     }
 }
