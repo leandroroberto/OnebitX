@@ -10,6 +10,10 @@
   height: auto;
 }
 
+.nav-home{
+  color: white;
+}
+
 .container-01 {
   height: 100%;
   background-image: url("../img/humanFlight/01.jpg");
