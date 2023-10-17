@@ -19,6 +19,10 @@ hr {
   height: auto;
 }
 
+.nav-home{
+  color: white;
+}
+
 .container-01 {
   height: 100vh;
   background-image: url("../img/falcon9/01.jpg");
