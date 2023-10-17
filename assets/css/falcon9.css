@@ -19,8 +19,9 @@ hr {
   height: auto;
 }
 
-.nav-home{
-  color: white;
+.nav-item.active{
+  text-decoration: underline;
+  color: black;
 }
 
 .container-01 {
