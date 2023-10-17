@@ -21,6 +21,10 @@ body {
   height: auto;
 }
 
+.nav-home{
+  color: white;
+}
+
 .container-01 {
   height: 100vh;
   background-image: url("../img/home/01.jpg");
