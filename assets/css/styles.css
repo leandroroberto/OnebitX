@@ -23,6 +23,7 @@ body {
 
 .nav-item.active{
   text-decoration: underline;
+  color: #fff;
 }
 
 .container-01 {
