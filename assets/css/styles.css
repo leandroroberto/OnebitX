@@ -21,8 +21,8 @@ body {
   height: auto;
 }
 
-.nav-home{
-  color: white;
+.nav-item.active{
+  text-decoration: underline;
 }
 
 .container-01 {
